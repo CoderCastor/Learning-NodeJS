@@ -1,0 +1,5 @@
+put method is use to put when we upload file and photo in these scenarios we use "PUT" method
+
+PATCH -->> USE TO CHANGE an existing entry
+
+DELETE -->> USE to DELETE somthing eg- user account
