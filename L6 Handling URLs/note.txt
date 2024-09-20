@@ -1,0 +1,18 @@
+URL = uniform resource Locator
+
+after ? in url there are parameters like 
+https://www.youtube.com/results?search_query=javascript+tic+tac+toe+
+
+
+by default there no anything which recognise the parameters in URLs hence we use external package
+go to npmjs.com
+
+for installing URL package ------>>>>>  npm i url
+
+#if we deleted a package accidentally or we havent node_modules packages 
+we have to run ---->> inp install
+package.json dependencies get automatically installed
+
+
+"+" === is space
+"&" === use to separate parameters
