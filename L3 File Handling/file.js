@@ -28,4 +28,20 @@ const fs = require("fs");
 
 
 //----------->>>>>>> COPY File and many more to explore!
-fs.copyFileSync("./contact.txt","./test.txt");
+// fs.copyFileSync("./contact.txt","./copy.txt");
+
+
+
+
+//for deleting we use unlink
+// fs.unlinkSync("./copy.txt");
+
+
+// for checking status of file we can use statSync 
+// console.log(fs.statSync("./test.txt"));
+console.log(fs.statSync("./test.txt").isFile());  //it will check and return boolean values
+// for more options fs._____
+
+
+
+
