@@ -1,0 +1,48 @@
+//version
+
+4.18.2
+
+1st part ->4
+3nd part ->18
+3rd part ->2
+
+//3rd Part (Last Part) - Minor Fixes  (Optional)
+Latest -> 4.18.5
+
+
+
+//2nd Part - Recommended Bug Fix (Security Fix)
+Latest -> 4.19.1
+
+
+
+//1st Major Release - Major / Breaking Update
+5.0.1   <-- only use when building new project , Don't change in existing project then code gets break
+
+
+Specific installation of express --->
+npm i express@4.17.2
+npm i express@4.20.2
+
+
+^ sign in versioning
+^4.17.2  =====>>>>   ^ use to fix update
+^4.17.2  don't update ^4.    only update _ updates in ^4._._
+eg -- 4.17.4  4.17.7  4.18.1  4.18.3
+
+
+
+~ sign in versioning
+~4.17.4 only changes 4.17._  3rd version / minor version
+eg- 4.17.5    4.17.6    4.17.7   4.17.9
+we can write same as using "x" eg--> "4.17.x"
+
+
+
+we can specify range of versioning with "-"
+eg "4.17.0 - 4.999.999"  === "^4.0.0" 
+
+
+if write "latest" then it will update to latest version which in not good thing
+
+
