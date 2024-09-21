@@ -1,0 +1,23 @@
+REST API - JSON 
+
+
+for making hybrid server we can put /API that means if there in no api then use SSR serverSideRendering throw HTMLdoc
+GET /api/users - List all users JSON -DONE
+GET /users - List all users JSON  -DONE
+
+//dynamic path parameters  --> GET /api/users/:id  -DONE
+GET /api/users/1 - Get the user with id 1
+GET /api/users/2 - Get the user with id 2
+:id -> variable | dynamic
+
+
+POST  /users   -  create new user
+
+
+PATCH /user/1  - Edit the user with id 1
+
+
+DELETE /users/1 - DELETE the user with id 1
+
+
+use for testing data ---> mockaroo.com
