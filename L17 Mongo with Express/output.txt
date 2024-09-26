@@ -1,0 +1,18 @@
+
+1727363650957  :  ::1  :  POST  :  /api/users
+1727363667301  :  ::1  :  GET  :  /api/users/1000
+1727365420642  :  ::1  :  POST  :  /api/users
+1727365838928  :  ::1  :  POST  :  /api/users
+1727365884753  :  ::1  :  POST  :  /api/users
+1727366312899  :  ::1  :  GET  :  /users
+1727366343230  :  ::1  :  GET  :  /users
+1727366378910  :  ::1  :  GET  :  /users
+1727366447962  :  ::1  :  POST  :  /api/users
+1727366453665  :  ::1  :  GET  :  /users
+1727366534954  :  ::1  :  GET  :  /api/users
+1727366836958  :  ::1  :  GET  :  /api/users/66f5812cb889fcf781ce676a
+1727367094732  :  ::1  :  PATCH  :  /api/users/66f5812cb889fcf781ce676a
+1727367100978  :  ::1  :  GET  :  /users
+1727367112231  :  ::1  :  GET  :  /api/users/
+1727367250306  :  ::1  :  DELETE  :  /api/users/66f5812cb889fcf781ce676a
+1727367259153  :  ::1  :  GET  :  /api/users/
