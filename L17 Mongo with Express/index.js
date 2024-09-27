@@ -114,6 +114,9 @@ app.post("/api/users", async (req, res) => {
 
   console.log("result : ", result);
 
+
+
+  
   return res.status(201).json({ msg: "User Created Successfully" });
 
   //   users.push({ ...body, id: users.length + 1 });
