@@ -112,7 +112,7 @@ app.post("/api/users", async (req, res) => {
     jobTitle: body.job_title,
   });
 
-  console.log("result : ", result);
+  // console.log("result : ", result);
 
   return res.status(201).json({ msg: "User Created Successfully" });
 
