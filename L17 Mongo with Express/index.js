@@ -122,9 +122,6 @@ app.post("/api/users", async (req, res) => {
   //   });
 });
 
-
-
-
 app.patch("/api/users/:id", async (req, res) => {
   //TODO: edit the user with id
   await User.findByIdAndUpdate(req.params.id, {
