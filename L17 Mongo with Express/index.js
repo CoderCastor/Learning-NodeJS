@@ -135,7 +135,7 @@ app.delete("/api/users/:id", async (req, res) => {
 
   await User.findByIdAndDelete(req.params.id);
 
-  return res.json({ status: "Success" });
+  // return res.json({ status: "Success" });
 });
 
 app.listen(port, () => console.log(`Server Started at port ${port}`));
