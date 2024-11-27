@@ -6,7 +6,7 @@ const {
   deleteTask,
 } = require("../controllers/taskController");
 const router = express.Router();
-
+const { protect } = require('../middleware/authMiddleware')
 // router.get("/",(req,res)=>{
 //     res.status(200).json({
 //         msg:"Server is running fine on get"
@@ -14,12 +14,12 @@ const router = express.Router();
 
 // })
 
-router.get("/", getTask);
+router.get("/", protect , getTask);
 
-router.post("/", setTask);
+router.post("/",protect, setTask);
 
-router.put("/:id", updateTask);
+router.put("/:id",protect, updateTask);
 
-router.delete("/:id", deleteTask);
+router.delete("/:id",protect, deleteTask);
 
 module.exports = router;
